@@ -10,9 +10,9 @@ import Input from './components/Input/Input'
 function App() {
 
   const [tasks,setTasks]=useState([
-    {id:1, title:"Add texts to Home Page"},
-    {id:2, title:"Fix styling in About section"},
-    {id:3, title:"Learn how to center a div"}
+    {id:1, title:"Write to add something in the List"},
+    {id:2, title:"Try to drag and drop me"},
+    {id:3, title:"Great Application"}
   ])
 
   const addTask=(title)=>{
